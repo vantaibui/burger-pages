@@ -1,15 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
-import BaiTapChonXeRedux from "./BaiTapChonXeRedux/BaiTapChonXeRedux";
+import Index from "./BaiTapBurger/Index";
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <BaiTapChonXeRedux />
-      </div>
-    );
-  }
+    render() {
+        return <Index / > ;
+    }
 }
 
 export default App;
